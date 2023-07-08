@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "roleplayai",
+  "version": "${version}",
+  "name": "Roleplay AI",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Brandon/Roleplay AI"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/RoleplayAI/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bion.roleplayai.RoleplAI"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "roleplayai.mixins.json"
+  ]
+}
